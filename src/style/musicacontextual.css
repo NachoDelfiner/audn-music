@@ -1,0 +1,152 @@
+.musica-contextual {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 80px;
+  font-size: 15px;
+}
+.contextual-form {
+  width: 280px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  font-weight: bold;
+}
+
+.contextual-form section {
+  gap: 10px;
+}
+
+.contextual-form label {
+  font-size: 16px;
+}
+
+.contextual-form select,
+option {
+  font-size: 16px;
+}
+
+.contextual-form select {
+  border-radius: 0px 20px;
+  outline: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 2px #26262e4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  color: rgb(66, 66, 66);
+}
+
+.contextual-form button {
+  border-radius: 0px 20px;
+  outline: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff8e0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border: none;
+}
+
+.contextual-form button:hover {
+  background-color: #ca883c;
+  transition-duration: 0.3s;
+}
+
+.contextual-form option {
+  all: unset;
+  border: solid 1px black;
+  color: rgb(44, 44, 44) !important;
+}
+
+.formA {
+  animation-name: formA;
+  animation-duration: 1s;
+}
+
+.formB {
+  animation-name: formB;
+  animation-duration: 1s;
+}
+
+.formC {
+  animation-name: formC;
+  animation-duration: 1s;
+}
+
+.formD {
+  animation-name: formD;
+  animation-duration: 1s;
+}
+
+
+@keyframes formA {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes formB {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes formC {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes formD {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media(max-width:350px){
+  .contextual-form {
+    width: 200px;
+  }
+}
+
+
+
+
+
+

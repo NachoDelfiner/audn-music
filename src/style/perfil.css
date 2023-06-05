@@ -1,0 +1,53 @@
+.profileBody {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: rgb(26, 26, 26);
+  flex-direction: column;
+  color: white;
+}
+
+.exit-button {
+  background-color: #ff8e0a;
+  color: white;
+  border-radius: 0px 10px;
+  outline: none;
+  height: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  margin-left: 100px;
+}
+
+.crearplaylist-button {
+  background-color: #ff8e0a;
+  color: white;
+  border-radius: 0px 10px;
+  outline: none;
+  height: 35px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  margin-left: 100px;
+  width: 120px;
+  padding: 5px;
+}
+
+.exit-button:hover {
+  background-color: green;
+  transition-duration: 0.3s
+}
+
+.playlist-section {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+

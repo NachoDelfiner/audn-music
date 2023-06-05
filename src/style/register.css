@@ -1,0 +1,159 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-register {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  color: #26262e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-register p {
+  font-weight: bold;
+}
+
+.section-i {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-register h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-register h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.input-x.invalidC {
+  border-color: red;
+}
+
+.input-x.invalidD {
+  border-color: red;
+}
+
+.input-x.invalidE {
+  border-color: red;
+}
+
+.input-x.invalidF {
+  border-color: red;
+}
+
+.form-register input {
+  border-radius: 0px 20px;
+  outline: none;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 2px #26262e4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+}
+
+.form-register input:focus {
+  border: 2px solid #ff8e0a;
+}
+
+.input-sections {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.form-register button {
+  background-color: #ff8e0a;
+  color: white;
+  border-radius: 0px 20px;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+.form-register button:hover {
+  background-color: #f09023;
+  transition-duration: 0.3s;
+}
+
+.e1 {
+  animation-name: e1;
+  animation-duration: 1s;
+}
+.e2 {
+  animation-name: e2;
+  animation-duration: 1s;
+}
+
+.e3 {
+  animation-name: e3;
+  animation-duration: 1s;
+}
+
+.e4 {
+  animation-name: e4;
+  animation-duration: 1s;
+}
+
+@keyframes e1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes e2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes e3 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes e4 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media(max-width:350px){
+  .form-register {
+    width: 250px;
+  } 
+}

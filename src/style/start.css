@@ -1,0 +1,119 @@
+
+.start-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  padding: 5px;
+  height: auto;
+  color: #26262e;
+  animation-name: start;
+  animation-duration: 1s;
+  gap: 40px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 2;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.link-buttons {
+  border-radius: 0px 39.68px;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(164, 211, 164);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-buttons:hover {
+  background-color: #4e9c45;
+  transition-duration: 0.3s;
+}
+
+.register-button {
+  background-color: #ff8e0a;
+  color: white;
+  border-radius: 0px 39.68px;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.register-button:hover {
+  background-color: #f09023;
+  transition-duration: 0.3s;
+}
+
+.start-button {
+  border-radius: 0px 39.68px;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+
+.iniciar-button {
+  background-color: #ff8e0a;
+  color: white;
+  border-radius: 0px 39.68px;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.iniciar-button:hover {
+  background-color: #f09023;
+  transition-duration: 0.3s;
+}
+
+
+@media(max-width:350px){
+  .start-form {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
+  .start-form {
+    transform: translate(-50%, -20%);
+  }
+  .start {
+    display: flex;
+    padding-bottom: 300px;
+  }
+}

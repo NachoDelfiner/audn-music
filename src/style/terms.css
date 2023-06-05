@@ -1,0 +1,33 @@
+.terms-cond {
+  font-size: 12px;
+}
+
+.terms-cond:hover {
+  color: #ff8e0a;
+  transition-duration: 0.3s;
+}
+
+.modalbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000da;
+  box-shadow: 24px;
+  padding: 10px;
+}
+
+@media(max-width:350px){
+    .modalbox {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
+    .modalbox {
+        margin-top: 5px;
+        width: 80%;
+    }
+}

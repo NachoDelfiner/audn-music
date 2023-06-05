@@ -1,0 +1,163 @@
+.playlistMpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.playlistMBody {
+  height: 792px;
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerP {
+  margin-top: 20px;
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tresPuntos {
+  width: 5px;
+  height: 20px;
+}
+
+.flechaI {
+  width: 20px;
+  height: 20px;
+}
+
+.titleC {
+  text-align: center;
+}
+
+.headerP p {
+  font-size: 0.7rem;
+}
+
+.headerP h2 {
+  font-size: 1.2rem;
+}
+
+.playlistImg {
+  margin-top: 20px;
+  width: 204px;
+  height: 204px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.img2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-top-right-radius: 30px;
+}
+
+.img3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-bottom-left-radius: 30px;
+}
+
+.img4 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.socialNetworkBody {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.socialNetwork {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconSM {
+  height: 30px;
+  width: 30px;
+}
+
+.iconSMV {
+  height: 20px;
+  width: 20px;
+}
+
+.songTime {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.songTimeImg {
+  height: 16px;
+  width: 16px;
+}
+
+.playBody {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createcopy {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.copy {
+  width: 25px;
+  height: 30px;
+}
+
+.playButtons {
+  width: 90px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.randomYplay {
+  width: 25px;
+  height: 25px;
+}
+
+.cupidoList {
+  width: 90%;
+  height: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.puntero {
+  cursor: pointer;
+}
